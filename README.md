@@ -21,4 +21,9 @@ For C plugins, I use Tiny C Compiler, by Fabrice Bellard
 
 Why I like it? The answer is really simple: It creates really small executables for small programs (over ~2 kB) and the compiler itself it's also really small.
 
+### These programs are safe?
+
+Yes, all this programs are completely safe as they are published with their source code. To compile you the programs, check up what I use and what to use.
+
+
 To view other creations made by me and TheBATeam (www.thebateam.org) go to https://github.com/TheBATeam
