@@ -9,9 +9,14 @@ They are virus-free, and for all of them you can see the source, so you ensure t
 ### List of small utilities that I have made:
 
 * BFP (Batch File Packer): As the name indicates, it is for packing (compressing) batch files
-* PlaySound: To play sounds within any window and fast
-* MsgBox: To display customized message boxes, with custom buttons, icons and actions when some action happens
 * Base64: To encode/decode files in Base64. Useful if you want to send files, ensuring that they have been not modified or at least making harder his modification
+* EchoMath: With that utility you can do mathematical operations from CMD directly from `echo` command by piping it.
+* HexRGBConvert: Convert RGB colors to hexadecimal and vice versa.
+* MsgBox: To display customized message boxes, with custom buttons, icons and actions when some action happens
+* PlaySound: To play sounds within any window and fast
+
+
+
 
 ### What compiler/packer do you use?
 
