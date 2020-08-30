@@ -37,14 +37,7 @@ set "action=%~8 %~9"
 if "%~8"=="{RunMsgBox}" set action=WScript.exe ""%TMP%\msgbox.vbs""
 for %%A in (Ok Yes No Retry Ignore Cancel Abort) do if /i "%~7"=="%%A" set clickbutton=%~7
 
-if /i "%~7"=="" set clickbutton=Ok
-if /i "%~7"=="Ok" set clickbutton=Ok
-if /i "%~7"=="Yes" set clickbutton=Yes
-if /i "%~7"=="No" set clickbutton=No
-if /i "%~7"=="Retry" set clickbutton=Retry
-if /i "%~7"=="Ignore" set clickbutton=Ignore
-if /i "%~7"=="Cancel" set clickbutton=Cancel
-if /i "%~7"=="Abort" set clickbutton=Abort
+
 set continue=1
 if "%~3"=="wait" set continue=0
 
@@ -103,6 +96,5 @@ echo Copyright (c) 2020 anic17 Software
 echo.
 :end
 endlocal
-exit /b 0
-
-
+exit /b 0set clickbutton=Cancel
+if /i "%~7"=="Abort" set clickbutton=Abort
